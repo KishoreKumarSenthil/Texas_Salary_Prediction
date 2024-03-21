@@ -18,7 +18,7 @@ Have salaries and total compensations for some roles/ departments/ head-count ch
 
 - After the EDA, the dataset was preprocessed by using categorical data encoding using LabelEncoder,removing outliers, scaling some numerical columns.
 
-- We take 'agency', 'agency_name', 'class_title', 'ethnicity', 'gender', 'status','hr_rate', 'hr_per_wk', 'm_salary', 'state_no' as relevent feature as our input variables and "a_salary" i.e. annual salary as our target variable.
+- We take 'agency', 'class_title', 'ethnicity', 'gender', 'status','hr_rate', 'hr_per_wk', 'm_salary', 'state_no' as relevent feature as our input variables and "a_salary" i.e. annual salary as our target variable.
 
 - Performed models are "LinearRegressor", "DecisionTree", "RandomForest", "GradientBoostingRegressor" to be compared by the used of r2score, adjusted r2 score, mse, mae and based on that the linear regressor came out on top.
 
